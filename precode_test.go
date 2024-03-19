@@ -50,7 +50,7 @@ func TestMainHandler(t *testing.T) {
 			args: badCity,
 		},
 		{
-			name: "Bad count cafes",
+			name: "Count more than total",
 			args: countMoreThanTotal,
 		},
 	}
